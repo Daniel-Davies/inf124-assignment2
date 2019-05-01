@@ -1,0 +1,458 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Clothes Store</title>
+    <meta name="description" content="My clothes store main page">
+    <link href="https://fonts.googleapis.com/css?family=Eczar:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+        select {
+            height: 4vh;
+            width: 10vw;
+        }
+
+        tr {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class='header'>
+        <h3 class='title' style='width: 40vh; line-height: 1em;'>Stryeet Wear</br>
+        <span style='font-size: 15px;'>by Daniel Davies and William Khaine</span></h3>
+        <ul>
+            <li><a href='./about.html' class='visiting'>About</a></li>
+            <li><a href='./index.php'>Products</a></li>
+        </ul>
+    </header>
+    <div class="flex-container">
+        <h1>Products</h1>
+    </div>
+    <div class="flex-container">
+        <em>
+            <h4>Choose from our clothing collection below. Once you have made your choice, click on a table row for purchase
+                information.
+            </h4>
+        </em>
+
+    </div>
+
+    <div class="flex-container">
+
+        <table id="customers">
+            <tr>
+                <th>Product Details</th>
+                <th>Product Image</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Shirt</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$20</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1000</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>A T-shirt (or t shirt, or tee) is a style of unisex fabric shirt named after the T shape of its body
+                            and sleeves. Traditionally it has short sleeves and a round neckline, known as a crew neck, which
+                            lacks a collar. T-shirts are generally made of a stretchy, light and inexpensive fabric and are
+                            easy to clean. Made from 100% cotton only in our store.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./shirt.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Long Shirt</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$25</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1001</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>A T-shirt (or t shirt, or tee) is a style of unisex fabric shirt named after the T shape of its body
+                            and sleeves. Traditionally it has short sleeves and a round neckline, known as a crew neck, which
+                            lacks a collar. T-shirts are generally made of a stretchy, light and inexpensive fabric and are
+                            easy to clean. Long sleeve t-shirt adds length to the sleeves. Made from 100% cotton only in
+                            our store.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./longshirt.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Smart Shirt</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$30</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1002</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Our smart shirt is light and comfortable. Lightweight and quick dry Fit optimized for regulation
+                            of moisture/heat Excellent UV Protection 99.9% Antibacterial Treatment (no odors) Pocket on the
+                            right side with a YKK zipper to store the device 73% Polyamide Micro/27% Elastane Designed to
+                            stand up to tough conditions Machine washable (piling and stretching resistant)</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./smartshirt.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Sports Pants</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$15</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1003</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Our jogger pants are a kind of sweat pants that are made of a soft fabric. It’s relatively loose
+                            with tight elastic at the ankles. It’s comfortable and shields wind so can be worn for for long
+                            jogs or if you want to feel warm on a cold day.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./sportspants.jpg" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Khakis</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$20</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1004</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Khaki pants. Khaki is a color, a light shade of brown with a yellowish tinge. Khaki is an equal mix
+                            of sage and buff so it is considered a quinary color.[1] Khaki has been used by many armies around
+                            the world for uniforms, including camouflage. It has been used as a color name in English since
+                            1848 when it was first introduced as a military uniform, and was called both drab and khaki[2]—khaki
+                            being a translation of the English drab light-brown color.[3] A khaki uniform is often referred
+                            to as khakis. In Western fashion, it is a standard color for smart casual dress trousers for
+                            civilians, which are also often called khakis.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./khakis.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Shorts</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$15</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1005</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Shorts are a garment worn over the pelvic area, circling the waist and splitting to cover the upper
+                            part of the legs, sometimes extending down to the knees but not covering the entire length of
+                            the leg.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./shorts.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Socks</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$5</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1006</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Black and white socks. A sock is an item of clothing worn on the feet and often covering the ankle
+                            or some part of the calf. Some type of shoe or boot is typically worn over socks. In ancient
+                            times, socks were made from leather or matted animal hair.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./socks.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Gloves</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$10</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1007</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>Warm gloves.Gloves are pieces of clothing which cover your hands and wrists and have individual sections
+                            for each finger. You wear gloves to keep your hands warm or dry or to protect them. </p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./gloves.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Hoodie</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$30</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1008</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>A hoodie (also spelled hoody) is a sweatshirt or a jacket with a hood. Hoodies include a muff sewn
+                            onto the lower front, and (usually) a drawstring to adjust the hood opening.
+
+                        </p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./hoodie.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="flex-container">
+                        <h1 class="namebox" style="margin: 0%;">Jacket</h1>
+                    </div>
+                    <div class="flex-container" style="margin: 0%">
+                        <h3 class="namebox" style="margin: 0%">$40</h3>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>
+                            <b>
+                                <em>Product ID</em>
+                            </b>:
+                            <u class="idbox">1009</u>
+                        </p>
+                    </div>
+                    <div style="display: flex; justify-content: start;">
+                        <p>A jacket is a mid-stomach–length garment for the upper body. A jacket typically has sleeves, and
+                            fastens in the front or slightly on the side. A jacket is generally lighter, tighter-fitting,
+                            and less insulating than a coat, which is outerwear. Some jackets are fashionable, while others
+                            serve as protective clothing.</p>
+                    </div>
+                    <div class="flex-container">
+                        <h2>Select your color:</h2>
+                    </div>
+                    <div class="flex-container">
+                        <select onclick="event.stopPropagation();">
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </td>
+                <td class="cover">
+                    <img class="cover" src="./jacket.png" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="flex-container footer">
+        <div>
+            <p>
+                <span>Phone Number</span>
+                <span>(949) 123-4567</span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span>Email</span>
+                <span>
+                    <a href='mailto:wkhaine@uci.edu'>stryeetwear@gmail.com</a>
+                </span>
+            </p>
+        </div>
+        <div>
+            <p>
+                <span>Address</span>
+                <span>1234 Fake Address Rd.</span>
+                <span>Irvine, CA 92321</span>
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <script src="scripts.js"></script>
+    <script>addRowHandlers()</script>
+</body>
+
+</html>

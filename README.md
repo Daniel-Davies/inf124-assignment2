@@ -1,4 +1,4 @@
-# inf124
+# inf124 - PHP
 
 Daniel Davies - daviesdg - 32285633
 William Khaine - wkhaine - 34989009
